@@ -7,47 +7,6 @@
 26(1,0,1) 55(1,1,1)
 */
 
-/*
-int [,] InitMatrix(int rows, int columns)
-{
-    int [,] matrix = new int [rows, columns];
-    Random rnd = new Random();
-
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < columns; j++)
-        {
-            matrix[i, j] = rnd.Next(0, 10);
-        }
-    }
-    return matrix;
-}
-
-void PrintMatrix(int [,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write($"{matrix[i,j]} ");
-        }
-        Console.WriteLine();
-    }
-}
-
-Dictionary<int, int> Slovar = new Dictionary<int, int>();
-int[,] matrix = InitMatrix(4, 4);
-for (int i = 0; i < matrix.GetLength(0); i++)
-{
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-        if(Slovar.ContainsKey(matrix[i,j]))
-            Slovar[matrix[i,j]]++;
-        else
-            Slovar.Add(matrix[i,j], 1);
-    }
-}
-*/
 
 int [] ArrayUniqueNumber(int countElement)
 {
@@ -55,7 +14,7 @@ int [] ArrayUniqueNumber(int countElement)
     Dictionary<int, int> UniqueNumbers = new Dictionary<int, int>();
     Random rnd = new Random();
     int number = rnd.Next(10, 100);
-//    int countElement = rows * columns * layers;
+
     while(UniqueNumbers.Count < countElement)
     {
         if(UniqueNumbers.ContainsKey(number))
@@ -63,6 +22,7 @@ int [] ArrayUniqueNumber(int countElement)
         else
             UniqueNumbers.Add(number, 1);
     }
+
     int i = 0;
     foreach (var item in UniqueNumbers)
     {
@@ -79,8 +39,8 @@ int[,,] Init3DArrayUniqueElement(int rows, int columns, int layers)
     int countElement = rows * columns * layers;
     int [] arrayUnique = ArrayUniqueNumber(countElement);
     Console.WriteLine();
-    int n = 0;
 
+    int n = 0;
     for (int i = 0; i < array3D.GetLength(0); i++)
     {
         for (int j = 0; j < array3D.GetLength(1); j++)
@@ -95,11 +55,8 @@ int[,,] Init3DArrayUniqueElement(int rows, int columns, int layers)
             Console.WriteLine();
         }
     }
-    
     return array3D;
 }
 
 int [,,] array3D = Init3DArrayUniqueElement(2, 2, 2);
 
-
-//int [] array = ArrayUniqueNumber(8);

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dimak\\.nuget\\packages\\": {}
+    "C:\\Users\\Fruktarin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Дима\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\Task60_3D_Matrix.csproj",
+      "projectUniqueName": "C:\\Дима\\GB\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\Task60_3D_Matrix.csproj",
       "projectName": "Task60_3D_Matrix",
-      "projectPath": "C:\\Дима\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\Task60_3D_Matrix.csproj",
-      "packagesPath": "C:\\Users\\dimak\\.nuget\\packages\\",
-      "outputPath": "C:\\Дима\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\obj\\",
+      "projectPath": "C:\\Дима\\GB\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\Task60_3D_Matrix.csproj",
+      "packagesPath": "C:\\Users\\Fruktarin\\.nuget\\packages\\",
+      "outputPath": "C:\\Дима\\GB\\DZ na C 1\\DZ-na-C-8\\Task60_3D_Matrix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dimak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Fruktarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
